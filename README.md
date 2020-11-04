@@ -21,6 +21,11 @@ In order to understad the importance of impressions on different websites, I cre
 * Random forest.
 * k-Nearest Neighbours.
 
-The ROC curve for these models is shown below.
+All models were trained and tested in 10 independent trials, the logistic regression performed best with mean accuracy, precision and recall of 0.95, 0.98, 0.70, respectively. The ROC curve for these models is shown below.
 
-![](https://github.com/joebarnes1996/advertising/blob/master/images/model_roc_comparison.png?raw=True)
+![](https://github.com/joebarnes1996/advertising/blob/master/images/model_roc_comparison.png)
+
+Due to the strong performance of logistic regression, and that it is easily interpretted, I chose to use it as my final model to understand the effect of impressions on different websites on a users likelihood to clicking an advert. To refine the logistic regression model, I used forward feature selection to select the optimal combination of variables to use in prediction.
+
+# Results and interpretations
+
