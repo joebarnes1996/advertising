@@ -13,7 +13,14 @@ Prior to analysis, the data had several issues, hence requiring some pre-process
 * Outliers across most websites, defined by a Z-score greater than 3. These were left in, as their removal saw degredation to the predictive algorithms.
 * Imbalanced dataset - only ~12% of the datapoints corresponded to an advert click. To manage this the models were trained with a subset of the data, which undersampled the non-clicks data. When validating the models, the testing dataset was representative of the real (imbalanced) data.
 
+## Model selection and refinement
 
+In order to understad the importance of impressions on different websites, I created several models to predict a users likelihood of clicking an advert, based on the impressions they have seen. These models were:
 
+* Logistic regression.
+* Random forest.
+* k-Nearest Neighbours.
 
-![](https://github.com/joebarnes1996/advertising/blob/master/images/mean_adverts_clicks.png?raw=True)
+The ROC curve for these models is shown below.
+
+![](https://github.com/joebarnes1996/advertising/blob/master/images/model_roc_comparison.png?raw=True)
