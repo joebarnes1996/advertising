@@ -35,4 +35,4 @@ As one can see from the above, the probability of a user clicking an advert depe
 
 ![](https://github.com/joebarnes1996/advertising/blob/master/images/Feature_coefficients.png)
 
-The above image shows the websites which have little and large effects on users' likelihoods of clicking on adverts. This information is useful for marketing teams, as it allows reallocation of advert expenditure. For example, 
+The above image shows the websites which have little and large effects on users' likelihoods of clicking on adverts. This information is useful for marketing teams, as it allows reallocation of advert expenditure. For example, one could remove any adverts they have on low impact websites such as Buddymedia, Docs, Diigo or Facebook and reallocate them to high impact websites such as Thisnext, Kaboodle or Mybloglog. Due to the non-linearity of the relationship of advert views to probability of clicks, this reallocation is simple, though it demonstrates that one can increase advert views with no additional expenditure.  
